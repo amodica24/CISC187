@@ -1,0 +1,85 @@
+Functional Requirements:
+
+Design an inventory class that can hold data for Joseph's Computer Repair.
+
+Programming Requirements:
+
+Design an inventory class my friend's computer repair and sales business.  
+
+Member Variables:                Description (all are private)
+
+itemNumber                     positive int
+
+itemDesc                          string that holds the item description  (< 25 characters) 
+
+custLastName                  string that holds last name of the customer (<25 chars)
+
+custPhone                        string that holds customer's phone number(<11 chars)
+
+priceQuoted                     float >=0 that holds the quoted repair price
+
+hoursWorked                    float >=0  that holds the number of hours of labor
+
+Member Functions           Description (all are public)
+
+Default Constructor          sets all the member variables to 0 or to ""
+
+Constructor #2                 accepts itemNumber, itemDesc etc...  The function should copy these values to the appropriate variables.
+
+-----------------
+
+setItemNumber               accepts an integer argument that is copied to the itemNumber member - (if <0 then EXIT_FAILURE)
+
+setitemDesc                    accepts a string argument that is copied to the itemDesc member (if len>=25 then EXIT_FAILURE)
+
+setCustLastName           accepts a string argument that is copied to the custLastName member(if len>=25 then EXIT_FAILURE)
+
+setCustPhone                 accepts a string argument that is copied to the custPhone member (if len>=11 then EXIT_FAILURE)
+
+setPriceQuoted               accepts a float argument that is copied to the priceQuoted member (if <0 then EXIT_FAILURE)
+
+setHoursWorked             accepts a float argument that is copied to the hoursWorked member (if<0 then EXIT_FAILURE)
+
+------------------
+
+getItemNumber                     returns the item Number for the member
+
+getItemDesc                          returns the item Description...
+
+getCustLastName                  ...
+
+getCustPhone                        ...
+
+getPriceQuoted                     ...
+
+getJoursWorked                   ...
+
+----------------------
+
+Make sure to review "Rectangle. cpp(Version 1)" for an example of exit_failure.  
+     
+------------------------------------
+Demonstrate the class in main() as follows:
+1.  create an array of 5 repair objects
+2.  use the default constructor that initializes everything to 0 or "".
+3.  use a for loop to move through each object in the array.  for each object, input user data and use the mutator functions to set the data.  
+4.   once step 3 is totally completed, create another for loop and display the data for each object by having main call it's associated accessor function. Add up the total hours worked for the 5 objects as you go through the loop.   
+5.  Display the total hours worked for all objects.
+6.  make your output look professional - use the iomanip library to help you.  
+------------------------------------
+Sample output:
+Joseph's Computer Repair
+Item:     1
+Desc:    2015 MacBookPro
+Cust:     Williams
+Phone:   6193334455
+Quote:   $195.50
+Hours:   5.5
+Item:     2
+Desc:    2017 Ipad
+Cust:     Smith
+Phone:   6196667777
+Quote:   $27.80
+Hours:   2
+....(show the rest of the repairs in the same way)
+Total hours worked on all repairs = 44.5
