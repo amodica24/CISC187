@@ -1,0 +1,101 @@
+Using the material in the textbook (NumberList) as a sample, design your own dynamic linked list class (using pointers) to hold a series of capital letters.  The class should have the following member functions:
+
+append, insert (at a specific position, return -1 if that position doesn't exist), delete (at a specific position, return -1 if that position doesn't exist), print, reverse (which rearranges the nodes in the list so that their order is reversed), and search (which returns the position of a specific value in the list.  Assume the first node is position 0.  If the items is not found, then return a -1 which will tell the calling function that that value does not exist)
+
+Create a menu-driven program to demonstrate your linked list capabilities.  
+
+Low level validation
+
+1.  Mutator functions which are given a node value that is not a capital letter should have an exit_failure.
+
+2.  Mutator functions which are told to access a node that doesn't exist should return a -1 so that the calling function can handle the problem.  (No exit_failure used in this case b/c the calling function can't know if the node is there or not.)
+
+Program Level Validation
+
+If a call to a mutator returns a -1 that will indicate that the node is not found.  Display an appropriate error message to the user and then cycle back to the menu again.  For example:
+
+1. Append
+
+2. Insert
+
+3. Delete
+
+4. Print
+
+5. Reverse
+
+6. Search
+
+Please choose a menu option:
+
+2
+
+What value do you wish to insert?
+
+B
+
+What position to do wish to insert?
+
+3
+
+**I'm sorry but there is no position 3 in the linked list.
+
+1. Append
+
+2. Insert
+
+3. Delete
+
+4. Print
+
+5. Reverse
+
+6. Search
+
+Please choose a menu option:
+
+***********
+
+Make sure that you have proper constructors and destructors (a destructor must delete every node).   Make your input and output professional.  Break your code down into functions so as to maintain modular design.  No global variables.
+
+Demo your program as follows:
+
+append node
+
+append node
+
+append node
+
+append node
+
+append node
+
+print list
+
+insert at position
+
+print list
+
+delete at position
+
+print list
+
+reverse 
+
+print list
+
+search list
+
+---------------
+
+Here's a jing from a previous semester showing what the linked list assignment has to do.  It uses integers in it's list instead of capital letters, but o/w it's the same.
+
+https://www.screencast.com/t/w4OeB05A
+
+---------------
+
+Submit to me:
+
+1.  all of your .cpp and .h files.   
+
+2.  A jing that shows me the demo above
