@@ -1,0 +1,27 @@
+Carefully review Program 19-2 in your textbook, MathStack.  This is a static stack, meaning that the size of the stack is set at the beginning of the program (see line 11):  MathStack stack(5).
+
+I would like you to modify this program as follows:
+
+1.  Implement it as a dynamic stack (do not use a static stack as it is designed in the book).  Use a linked list to implement this.  There's code in the book.
+
+2.  Add functionality for Mult, Div, Pop, and Display.
+
+3.  Create a looping menu-driven program to demonstrate your code so that the user has the choice of:
+
+      1.  Push (an integer onto the stack)
+
+      2.  Pop (an integer off the stack)
+
+      3.  Add (the top two values in the stack and replace those two values with the sum)
+
+      4.  Subtract (the top two values on the stack and replace those two values with the difference)
+
+      5.  Mult (same as above)
+
+      6.  Div (same as above but check for div by 0)
+
+      7.  Display Stack
+
+      8.  End 
+
+Make sure you have validation in the mutators.  Watch out for division by 0 and not having enough integers on your stack to do the operation.  Make sure to only allow integers on your stack.  Finally, make sure main() is properly organized into functions and don't forget to document your code including your class.
