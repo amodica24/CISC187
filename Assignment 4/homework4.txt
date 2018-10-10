@@ -1,0 +1,76 @@
+Functional Requirements:
+
+I am grading a programming final project in an advanced C++ class.  I need you to write a program to help me out.
+
+Please create a program that asks for the separate grading points and then gives a total and a letter grade.  This program should loop around until I say that I am done.  For example: (program display is bold, user input is underlined)
+
+Please enter data for the next student:
+
+Code choice/execution:  (total points possible = 50):  40
+
+Modular code:  (total points possible = 20):  20
+
+Comments and Formatting (total points possible = 10):  10
+
+Input/Output Professionalism (total points possible = 10):  6
+
+Jing: (total points possible = 10):  10
+
+Calculated Total:   86
+
+Grade:  B
+
+Do you wish to enter another assignment?  (Y/N) Y
+
+Please enter data for the next student:
+
+Code choice/execution:  (total points possible = 50):  50
+
+Modular code:  (total points possible = 20):  20
+
+Comments and Formatting (total points possible = 10):  10
+
+Input/Output Professionalism (total points possible = 10):  10
+
+Jing: (total points possible = 10):  10
+
+Calculated Total:   100
+
+Grade:  A
+
+Do you wish to enter another assignment?  (Y/N) N
+
+Okay, bye!
+
+Programming Requirements:
+
+Design an Assignment class that is derived from the GradedActivity class presented in your book.  The Assignment class should determine the grade a student receives on a programming project.  The student's total scores can be up to 100, and is determined in the following manner:
+
+Code Execution:  50 points
+
+Modular Code:  20 points
+
+Comments and Formatting:  10 points
+
+IO Professional:  10 points
+
+Comments and Formatting:  10 points
+
+Input/Output/professionalism:  10 points
+
+Jing:  10 points
+
+Your Assignment class should define these point categories as member variables.  It must contain proper constructors and methods to hold the data and to add up the total.  It will use then use setScore and getLetterGrade  from the GradedActivity class to display the results.
+Make sure that your member data is protected.  Make sure there is validation that creates an Exit_Failure when necessary.
+
+Make your input and output professional.  Break your code down into functions as necessary.  
+
+Programming Notes:
+
+The GradedActitivity class is in your book, in edition 9, it starts on page 909;  in edition 8, it starts on page 893-4.  
+ 
+The Assignment class is based on (inherits from) the GradedActivity.
+ 
+The Assignment class will contain members for the scores and the associated mutator/accessor functions, BUT it will call the setScore function and the getLetterGrade function from GradedActivity. 
+ 
+This isn't a particularly taxing assignment, so spend some time really doing nice work.  Show me how you can shine!  
