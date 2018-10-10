@@ -1,0 +1,55 @@
+Funcitonal Requirements:  Using the Programming Assignment from Chapter 18 (Linked List) as a place to start, please complete the following:
+
+1.  Review your grading notes from Chapter 18 PA and fix the errors.  
+
+2.  Add the following functionality to your menu:
+
+     Count Number of Nodes.
+
+     Display the Largest Node in the list.
+
+Programming Rules:
+
+1.  Review the grading notes for your Chapter 18 (Linked List) submission.  Using the grading notes and the good example that was posted, get your code to work properly.
+
+2.  Modify your menu to add these two items: Count Number of Nodes and Display Largest Node.
+
+3.  Add the following to your previous class (the one you created for Chapter 18):
+
+     numNodes which returns the number of nodes in the linked list, and
+
+     maxNode which should return the largest value** stored in the list.  **Note, assume Z has a higher value than A.
+
+4.  In both cases, use recursion in the function to traverse the list.  If you do not use recursion to traverse the list then you will lose 25  points on this assignment.  This is not me kidding around.   Since the code for numNodes and it's associated private member function, countNodes, is written in the book, this is not a terribly taxing assignment. 
+
+----------------------
+
+Demo the program as follows:
+
+append node
+
+append node
+
+append node
+
+append node
+
+append node
+
+print list
+
+insert at position
+
+display list
+
+display number of nodes
+
+display max node
+
+delete at position
+
+print list
+
+display number of nodes
+
+display max node
