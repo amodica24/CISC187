@@ -1,0 +1,26 @@
+Functional Requirements:
+
+Same program requirements as Chapter 6/7 except rewrite your program to utilize pointer addressing instead of array subscripting.
+
+Programming Requirements:
+
+1.  Declare an int array and initialize it as before.  (You can't point at a 2D array in C++, so create an 1-dim array with 25 elements.)  
+
+2.  Declare an int pointer and point to the array.  From then on in the program, you may only use the pointer. You may not use the array or any array subscripting in any other part of your program.  You must only use pointer addressing.  
+
+3.  Always display the array and manipulate it as if it were still a 2-dim array of 5x5.  
+
+4.  Make sure your code is well-organized and well-documented.  No global variables.  Use functions and parameters appropriately.
+
+Programming Notes:
+
+Here's a smaller example of what I mean about setting up the pointer and not using array subscripts:
+
+   int balance[4] = {100, 2, 3, 17}; //here I am declaring my array
+
+   int *point; // declaring the pointer
+   point = balance;  //pointing to the array
+
+   for ( int i = 0; i < 3; i++ )
+
+        cout << *(point + i) << endl;   //using the pointer to access array elements
