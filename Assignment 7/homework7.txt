@@ -1,0 +1,50 @@
+Functional Requirements:  A looping, menu-driven program that allows the user to create a binary tree and to display data about the tree.
+
+Programming Requirements:
+
+Using the IntBinaryTree class from Chapter 21 as the starting point, add the following member functions:  
+
+Leaf Counter (which counts and returns the number of leaf nodes in the tree)
+
+Tree Height (which counts and returns the height of the tree - the height is the number of levels it contains. 
+
+Tree Width (which counts and returns the width of the tree - the width is the largest number of nodes in the same level.)
+
+Write a menu-driven program that will allow the user to:
+
+1.  Insert numbers
+
+2.  Display the tree (in order)
+
+3.  Display Leaf Count
+
+4.  Display Tree Height
+
+5.  Display Tree Width
+
+6.  Exit
+
+
+Your program should contain high-level validation for numeric input (use a while loop and allow use to re-enter the data).  
+
+----------------
+
+Test your program as follows:
+
+Insert the following numbers (one at a time through menu option 1):  10, 87, 9, 55, 13, 40, 22,1,0,77, 0, 4, 55, 33, 22
+
+Display the tree
+
+Display the leaf count
+
+Display the tree height
+
+Display the tree width
+
+--------------
+
+Submit the following:
+
+1.  all the C++ files
+
+2.  one jing that shows the program running properly.  And one jing that shows error handling.
