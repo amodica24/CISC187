@@ -42,7 +42,7 @@ void displayArray(int array1[5][5])
 
 void tripleArray(int array1[][5])
 {
-	for (int i = 0; i < 5; i++)			// loop through the row and columns
+	for (int i = 0; i < 5; i++)			 // loop through the row and columns
 	{
 		for (int j = 0; j < 5; j++)
 		{
